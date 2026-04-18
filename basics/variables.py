@@ -40,4 +40,4 @@ def b():
     y=5000
     print(id(y))
     return y
-print(a() is b())
+print(a() is b())  #Same file → same compilation context → Python optimizes identical literals to one object. Same behavior we saw before.
