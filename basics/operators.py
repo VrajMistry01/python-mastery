@@ -52,7 +52,7 @@ print("Hi" or "World") # Hi
 # -------------------------------
 # 4. // vs int() WITH NEGATIVES
 # -------------------------------
-
+#5//2 this doesnt give Quatient but floor value of actual devision
 print("\nFloor Division vs int() with negatives:")
 
 x = -7
@@ -61,10 +61,10 @@ y = 3
 print("x // y:", x // y)        # -3 (floors down)
 print("int(x / y):", int(x / y)) # -2 (truncates toward 0)
 d = -7
-e = 3
+e = -3
 
-print("x // y:", x // y)        # -3 (floors down)
-print("int(x / y):", int(x / y)) # -2 (truncates toward 0)
+print("d // e:", d // e)        #2 both gives same
+print("int(d / e):", int(d / e)) # 2
 
 
 # -------------------------------
