@@ -27,4 +27,5 @@ print(ticket_price(30, False, "Sunday"))
 print(ticket_price(30, False, "Monday"))
 print(ticket_price(-5, False, "Monday"))
 print(ticket_price(12, False, "Monday"))
-print(ticket_price(65, False, "Monday"))
+print(ticket_price(65, False, "Monday")) 
+ 
