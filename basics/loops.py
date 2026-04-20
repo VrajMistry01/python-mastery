@@ -1,3 +1,7 @@
+# TODO: rename 'key' to 'index' in enumerate example
+# TODO: add range(1, 21, 2) approach for odd numbers
+
+
 #All odd nums for 1-20 using range-
 
 for num in range(1,21):
